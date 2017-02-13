@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="pruebaDict" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/pruebaDict" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/pruebaDict" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Build.cpp" />
+		<Unit filename="Check.cpp" />
+		<Unit filename="Makefile" />
+		<Unit filename="Test.cpp" />
+		<Unit filename="extract.txt" />
+		<Unit filename="lib/libCSD.a" />
+		<Unit filename="libcds/COPYRIGHT" />
+		<Unit filename="libcds/Changelog" />
+		<Unit filename="libcds/Doxyfile" />
+		<Unit filename="libcds/Makefile" />
+		<Unit filename="libcds/includes/delete_me" />
+		<Unit filename="libcds/lib/delete_me" />
+		<Unit filename="main.cpp" />
+		<Unit filename="pruebaDict.layout" />
+		<Unit filename="src/Build.o" />
+		<Unit filename="src/Check.o" />
+		<Unit filename="src/FMIndex/SSA.cpp" />
+		<Unit filename="src/FMIndex/SSA.h" />
+		<Unit filename="src/FMIndex/SuffixArray.cpp" />
+		<Unit filename="src/FMIndex/SuffixArray.h" />
+		<Unit filename="src/FirstAlvaroDictionary.cpp" />
+		<Unit filename="src/FirstAlvaroDictionary.h" />
+		<Unit filename="src/Hash/Hash.cpp" />
+		<Unit filename="src/Hash/Hash.h" />
+		<Unit filename="src/Hash/HashBBdh.cpp" />
+		<Unit filename="src/Hash/HashBBdh.h" />
+		<Unit filename="src/Hash/HashBdh.cpp" />
+		<Unit filename="src/Hash/HashBdh.h" />
+		<Unit filename="src/Hash/HashDAC.cpp" />
+		<Unit filename="src/Hash/HashDAC.h" />
+		<Unit filename="src/Hash/HashUtils.h" />
+		<Unit filename="src/Hash/Hashdh.cpp" />
+		<Unit filename="src/Hash/Hashdh.h" />
+		<Unit filename="src/HuTucker/HuTucker.cpp" />
+		<Unit filename="src/HuTucker/HuTucker.h" />
+		<Unit filename="src/Huffman/Huffman.cpp" />
+		<Unit filename="src/Huffman/Huffman.h" />
+		<Unit filename="src/Huffman/huff.cpp" />
+		<Unit filename="src/Huffman/huff.h" />
+		<Unit filename="src/README" />
+		<Unit filename="src/RankedStringDictionary.cpp" />
+		<Unit filename="src/RankedStringDictionary.h" />
+		<Unit filename="src/RePair/Coder/CRePair.cpp" />
+		<Unit filename="src/RePair/Coder/CRePair.h" />
+		<Unit filename="src/RePair/Coder/DRePair.o" />
+		<Unit filename="src/RePair/Coder/IRePair.cpp" />
+		<Unit filename="src/RePair/Coder/IRePair.h" />
+		<Unit filename="src/RePair/Coder/arrayg.cpp" />
+		<Unit filename="src/RePair/Coder/arrayg.h" />
+		<Unit filename="src/RePair/Coder/basics.cpp" />
+		<Unit filename="src/RePair/Coder/basics.h" />
+		<Unit filename="src/RePair/Coder/dictionary.cpp" />
+		<Unit filename="src/RePair/Coder/dictionary.h" />
+		<Unit filename="src/RePair/Coder/hash.cpp" />
+		<Unit filename="src/RePair/Coder/hash.h" />
+		<Unit filename="src/RePair/Coder/heap.cpp" />
+		<Unit filename="src/RePair/Coder/heap.h" />
+		<Unit filename="src/RePair/Coder/records.cpp" />
+		<Unit filename="src/RePair/Coder/records.h" />
+		<Unit filename="src/RePair/RePair.cpp" />
+		<Unit filename="src/RePair/RePair.h" />
+		<Unit filename="src/StringDictionary.cpp" />
+		<Unit filename="src/StringDictionary.h" />
+		<Unit filename="src/StringDictionaryFMINDEX.cpp" />
+		<Unit filename="src/StringDictionaryFMINDEX.h" />
+		<Unit filename="src/StringDictionaryHASHHF.cpp" />
+		<Unit filename="src/StringDictionaryHASHHF.h" />
+		<Unit filename="src/StringDictionaryHASHRPDAC.cpp" />
+		<Unit filename="src/StringDictionaryHASHRPDAC.h" />
+		<Unit filename="src/StringDictionaryHASHRPF.cpp" />
+		<Unit filename="src/StringDictionaryHASHRPF.h" />
+		<Unit filename="src/StringDictionaryHASHUFFDAC.cpp" />
+		<Unit filename="src/StringDictionaryHASHUFFDAC.h" />
+		<Unit filename="src/StringDictionaryHHTFC.cpp" />
+		<Unit filename="src/StringDictionaryHHTFC.h" />
+		<Unit filename="src/StringDictionaryHTFC.cpp" />
+		<Unit filename="src/StringDictionaryHTFC.h" />
+		<Unit filename="src/StringDictionaryPFC.cpp" />
+		<Unit filename="src/StringDictionaryPFC.h" />
+		<Unit filename="src/StringDictionaryRPDAC.cpp" />
+		<Unit filename="src/StringDictionaryRPDAC.h" />
+		<Unit filename="src/StringDictionaryRPFC.cpp" />
+		<Unit filename="src/StringDictionaryRPFC.h" />
+		<Unit filename="src/StringDictionaryRPHTFC.cpp" />
+		<Unit filename="src/StringDictionaryRPHTFC.h" />
+		<Unit filename="src/StringDictionaryXBW.cpp" />
+		<Unit filename="src/StringDictionaryXBW.h" />
+		<Unit filename="src/Test.o" />
+		<Unit filename="src/XBW/TrieNode.cpp" />
+		<Unit filename="src/XBW/TrieNode.h" />
+		<Unit filename="src/XBW/XBW.cpp" />
+		<Unit filename="src/XBW/XBW.h" />
+		<Unit filename="src/iterators/IteratorDictID.h" />
+		<Unit filename="src/iterators/IteratorDictIDContiguous.h" />
+		<Unit filename="src/iterators/IteratorDictIDDuplicates.h" />
+		<Unit filename="src/iterators/IteratorDictIDNoContiguous.h" />
+		<Unit filename="src/iterators/IteratorDictIDRanked1.h" />
+		<Unit filename="src/iterators/IteratorDictIDXBW.h" />
+		<Unit filename="src/iterators/IteratorDictIDXBWDuplicates.h" />
+		<Unit filename="src/iterators/IteratorDictString.h" />
+		<Unit filename="src/iterators/IteratorDictStringFMINDEX.h" />
+		<Unit filename="src/iterators/IteratorDictStringFMINDEXDuplicates.h" />
+		<Unit filename="src/iterators/IteratorDictStringHHTFC.h" />
+		<Unit filename="src/iterators/IteratorDictStringHTFC.h" />
+		<Unit filename="src/iterators/IteratorDictStringPFC.h" />
+		<Unit filename="src/iterators/IteratorDictStringPlain.h" />
+		<Unit filename="src/iterators/IteratorDictStringRPDAC.h" />
+		<Unit filename="src/iterators/IteratorDictStringRPFC.h" />
+		<Unit filename="src/iterators/IteratorDictStringRPHTFC.h" />
+		<Unit filename="src/iterators/IteratorDictStringRanked1.h" />
+		<Unit filename="src/iterators/IteratorDictStringVector.h" />
+		<Unit filename="src/iterators/IteratorDictStringXBW.h" />
+		<Unit filename="src/iterators/IteratorDictStringXBWDuplicates.h" />
+		<Unit filename="src/utils/Coder/BinaryNode.cpp" />
+		<Unit filename="src/utils/Coder/BinaryNode.h" />
+		<Unit filename="src/utils/Coder/Coder.cpp" />
+		<Unit filename="src/utils/Coder/Coder.h" />
+		<Unit filename="src/utils/Coder/Codeword.h" />
+		<Unit filename="src/utils/Coder/DecodingTable.cpp" />
+		<Unit filename="src/utils/Coder/DecodingTable.h" />
+		<Unit filename="src/utils/Coder/DecodingTableBuilder.cpp" />
+		<Unit filename="src/utils/Coder/DecodingTableBuilder.h" />
+		<Unit filename="src/utils/Coder/DecodingTree.cpp" />
+		<Unit filename="src/utils/Coder/DecodingTree.h" />
+		<Unit filename="src/utils/Coder/StatCoder.cpp" />
+		<Unit filename="src/utils/Coder/StatCoder.h" />
+		<Unit filename="src/utils/DAC_BVLS.cpp" />
+		<Unit filename="src/utils/DAC_BVLS.h" />
+		<Unit filename="src/utils/DAC_VLS.cpp" />
+		<Unit filename="src/utils/DAC_VLS.h" />
+		<Unit filename="src/utils/LogSequence.cpp" />
+		<Unit filename="src/utils/LogSequence.h" />
+		<Unit filename="src/utils/Utils.h" />
+		<Unit filename="src/utils/VByte.cpp" />
+		<Unit filename="src/utils/VByte.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

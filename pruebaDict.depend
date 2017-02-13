@@ -1,0 +1,484 @@
+# depslib dependency file v1.0
+1456997646 source:/home/usuario/Programas/Codeblocks/pruebaDict/Build.cpp
+	<fstream>
+	<iostream>
+	"src/StringDictionary.h"
+	"src/iterators/IteratorDictStringPlain.h"
+	"src/utils/LogSequence.h"
+
+1457001598 /home/usuario/Programas/Codeblocks/pruebaDict/src/StringDictionary.h
+	<libcdsBasics.h>
+	"iterators/IteratorDictID.h"
+	"iterators/IteratorDictString.h"
+	"utils/Utils.h"
+	"StringDictionaryHASHHF.h"
+	"StringDictionaryHASHUFFDAC.h"
+	"StringDictionaryHASHRPF.h"
+	"StringDictionaryHASHRPDAC.h"
+	"StringDictionaryPFC.h"
+	"StringDictionaryRPFC.h"
+	"StringDictionaryHTFC.h"
+	"StringDictionaryHHTFC.h"
+	"StringDictionaryRPHTFC.h"
+	"StringDictionaryRPDAC.h"
+	"StringDictionaryFMINDEX.h"
+	"StringDictionaryXBW.h"
+	"FirstAlvaroDictionary.h"
+
+1456997524 /home/usuario/Programas/Codeblocks/pruebaDict/src/iterators/IteratorDictID.h
+	<iostream>
+	"IteratorDictIDContiguous.h"
+	"IteratorDictIDNoContiguous.h"
+	"IteratorDictIDDuplicates.h"
+	"IteratorDictIDXBW.h"
+	"IteratorDictIDXBWDuplicates.h"
+
+1456997524 /home/usuario/Programas/Codeblocks/pruebaDict/src/iterators/IteratorDictIDContiguous.h
+	<iostream>
+
+1456997524 /home/usuario/Programas/Codeblocks/pruebaDict/src/iterators/IteratorDictIDNoContiguous.h
+	<iostream>
+
+1456997524 /home/usuario/Programas/Codeblocks/pruebaDict/src/iterators/IteratorDictIDDuplicates.h
+	<iostream>
+
+1456997524 /home/usuario/Programas/Codeblocks/pruebaDict/src/iterators/IteratorDictIDXBW.h
+	<iostream>
+	<vector>
+	"../XBW/XBW.h"
+
+1456997522 /home/usuario/Programas/Codeblocks/pruebaDict/src/XBW/XBW.h
+	<iostream>
+	<fstream>
+	<cassert>
+	<libcdsBasics.h>
+	<Sequence.h>
+	<BitSequence.h>
+	<Mapper.h>
+
+1456997524 /home/usuario/Programas/Codeblocks/pruebaDict/src/iterators/IteratorDictIDXBWDuplicates.h
+	<algorithm>
+	<iostream>
+	<vector>
+	"../XBW/XBW.h"
+
+1456997524 /home/usuario/Programas/Codeblocks/pruebaDict/src/iterators/IteratorDictString.h
+	<string.h>
+	<cassert>
+	<iostream>
+	"IteratorDictStringPlain.h"
+	"IteratorDictStringVector.h"
+	"IteratorDictStringPFC.h"
+	"IteratorDictStringRPFC.h"
+	"IteratorDictStringHTFC.h"
+	"IteratorDictStringHHTFC.h"
+	"IteratorDictStringRPHTFC.h"
+	"IteratorDictStringRPDAC.h"
+	"IteratorDictStringXBW.h"
+	"IteratorDictStringXBWDuplicates.h"
+	"IteratorDictStringFMINDEX.h"
+	"IteratorDictStringFMINDEXDuplicates.h"
+
+1456997524 /home/usuario/Programas/Codeblocks/pruebaDict/src/iterators/IteratorDictStringPlain.h
+	<string.h>
+	<iostream>
+
+1456997524 /home/usuario/Programas/Codeblocks/pruebaDict/src/iterators/IteratorDictStringVector.h
+	<string.h>
+	<algorithm>
+	<iostream>
+	<vector>
+
+1456997524 /home/usuario/Programas/Codeblocks/pruebaDict/src/iterators/IteratorDictStringPFC.h
+	<string.h>
+	<iostream>
+	"../utils/Utils.h"
+	"../utils/VByte.h"
+
+1457001998 /home/usuario/Programas/Codeblocks/pruebaDict/src/utils/Utils.h
+	<string.h>
+	<sys/time.h>
+	<sys/stat.h>
+	<sys/types.h>
+	<libcdsBasics.h>
+
+1456997524 /home/usuario/Programas/Codeblocks/pruebaDict/src/utils/VByte.h
+	<iostream>
+	<libcdsBasics.h>
+
+1456997524 /home/usuario/Programas/Codeblocks/pruebaDict/src/iterators/IteratorDictStringRPFC.h
+	<string.h>
+	<iostream>
+	"../utils/LogSequence.h"
+	"../utils/Utils.h"
+	"../utils/VByte.h"
+	"../RePair/RePair.h"
+
+1456997522 /home/usuario/Programas/Codeblocks/pruebaDict/src/utils/LogSequence.h
+	<fstream>
+	<iostream>
+	<vector>
+	<libcdsBasics.h>
+
+1456997520 /home/usuario/Programas/Codeblocks/pruebaDict/src/RePair/RePair.h
+	<libcdsBasics.h>
+	"Coder/IRePair.h"
+	"../utils/LogSequence.h"
+	"../utils/DAC_VLS.h"
+	"../utils/Utils.h"
+
+1456997520 /home/usuario/Programas/Codeblocks/pruebaDict/src/RePair/Coder/IRePair.h
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<unistd.h>
+	"basics.h"
+	"records.h"
+	"hash.h"
+	"heap.h"
+	"dictionary.h"
+
+1456997520 /home/usuario/Programas/Codeblocks/pruebaDict/src/RePair/Coder/basics.h
+
+1456997520 /home/usuario/Programas/Codeblocks/pruebaDict/src/RePair/Coder/records.h
+	"stdio.h"
+	"basics.h"
+	"heap.h"
+	"hash.h"
+
+1456997520 /home/usuario/Programas/Codeblocks/pruebaDict/src/RePair/Coder/heap.h
+	<stdlib.h>
+	"basics.h"
+	"arrayg.h"
+	"records.h"
+
+1456997520 /home/usuario/Programas/Codeblocks/pruebaDict/src/RePair/Coder/arrayg.h
+	"basics.h"
+
+1456997520 /home/usuario/Programas/Codeblocks/pruebaDict/src/RePair/Coder/hash.h
+	"basics.h"
+	"records.h"
+
+1456997520 /home/usuario/Programas/Codeblocks/pruebaDict/src/RePair/Coder/dictionary.h
+	<stdio.h>
+	"basics.h"
+
+1456997522 /home/usuario/Programas/Codeblocks/pruebaDict/src/utils/DAC_VLS.h
+	<string.h>
+	<stdlib.h>
+	<math.h>
+	<stdio.h>
+	<libcdsTrees.h>
+	<BitSequence.h>
+
+1456997524 /home/usuario/Programas/Codeblocks/pruebaDict/src/iterators/IteratorDictStringHTFC.h
+	<string.h>
+	<iostream>
+	"../utils/Coder/Codeword.h"
+	"../utils/Coder/DecodingTable.h"
+	"../utils/LogSequence.h"
+	"../utils/Utils.h"
+	"../utils/VByte.h"
+
+1456997522 /home/usuario/Programas/Codeblocks/pruebaDict/src/utils/Coder/Codeword.h
+
+1456997522 /home/usuario/Programas/Codeblocks/pruebaDict/src/utils/Coder/DecodingTable.h
+	<assert.h>
+	<string.h>
+	<fstream>
+	<iostream>
+	<iterator>
+	<map>
+	<vector>
+	<BitString.h>
+	<libcdsBasics.h>
+	"DecodingTree.h"
+	"../LogSequence.h"
+	"../VByte.h"
+	"../Utils.h"
+
+1456997522 /home/usuario/Programas/Codeblocks/pruebaDict/src/utils/Coder/DecodingTree.h
+	<assert.h>
+	<string.h>
+	<fstream>
+	<iostream>
+	<BitString.h>
+	<libcdsBasics.h>
+
+1456997524 /home/usuario/Programas/Codeblocks/pruebaDict/src/iterators/IteratorDictStringHHTFC.h
+	<string.h>
+	<iostream>
+	"../utils/Coder/DecodingTable.h"
+	"../utils/LogSequence.h"
+	"../utils/Utils.h"
+	"../utils/VByte.h"
+
+1456997524 /home/usuario/Programas/Codeblocks/pruebaDict/src/iterators/IteratorDictStringRPHTFC.h
+	<string.h>
+	<iostream>
+	"../utils/Coder/DecodingTable.h"
+	"../utils/LogSequence.h"
+	"../utils/Utils.h"
+	"../utils/VByte.h"
+	"../RePair/RePair.h"
+
+1456997524 /home/usuario/Programas/Codeblocks/pruebaDict/src/iterators/IteratorDictStringRPDAC.h
+	<string.h>
+	<iostream>
+	"../utils/DAC_VLS.h"
+	"../utils/LogSequence.h"
+
+1456997524 /home/usuario/Programas/Codeblocks/pruebaDict/src/iterators/IteratorDictStringXBW.h
+	<iostream>
+	<vector>
+	"../XBW/XBW.h"
+
+1456997524 /home/usuario/Programas/Codeblocks/pruebaDict/src/iterators/IteratorDictStringXBWDuplicates.h
+	<algorithm>
+	<iostream>
+	<vector>
+	"../XBW/XBW.h"
+
+1456997524 /home/usuario/Programas/Codeblocks/pruebaDict/src/iterators/IteratorDictStringFMINDEX.h
+	<string.h>
+	<iostream>
+	"../FMIndex/SSA.h"
+
+1456997522 /home/usuario/Programas/Codeblocks/pruebaDict/src/FMIndex/SSA.h
+	<SequenceBuilder.h>
+	<Sequence.h>
+	<BitSequenceBuilder.h>
+	<BitSequence.h>
+	<Mapper.h>
+	<algorithm>
+	"SuffixArray.h"
+
+1456997522 /home/usuario/Programas/Codeblocks/pruebaDict/src/FMIndex/SuffixArray.h
+	<stdlib.h>
+	<stdio.h>
+	<limits.h>
+	<iostream>
+
+1456997524 /home/usuario/Programas/Codeblocks/pruebaDict/src/iterators/IteratorDictStringFMINDEXDuplicates.h
+	<string.h>
+	<iostream>
+	"../FMIndex/SSA.h"
+
+1456997520 /home/usuario/Programas/Codeblocks/pruebaDict/src/StringDictionaryHASHHF.h
+	<iostream>
+	<libcdsBasics.h>
+	"StringDictionary.h"
+	"Hash/Hash.h"
+	"Huffman/Huffman.h"
+	"utils/Coder/StatCoder.h"
+	"utils/Coder/DecodingTable.h"
+	"utils/Coder/DecodingTableBuilder.h"
+
+1456997522 /home/usuario/Programas/Codeblocks/pruebaDict/src/Hash/Hash.h
+	<iostream>
+	<BitSequence.h>
+	<libcdsBasics.h>
+	"HashUtils.h"
+	"../utils/LogSequence.h"
+	"../utils/Utils.h"
+	"Hashdh.h"
+	"HashBdh.h"
+	"HashBBdh.h"
+
+1456997522 /home/usuario/Programas/Codeblocks/pruebaDict/src/Hash/HashUtils.h
+
+1456997522 /home/usuario/Programas/Codeblocks/pruebaDict/src/Hash/Hashdh.h
+	"Hash.h"
+	<BitSequence.h>
+
+1456997522 /home/usuario/Programas/Codeblocks/pruebaDict/src/Hash/HashBdh.h
+	"Hash.h"
+	<BitSequence.h>
+
+1456997522 /home/usuario/Programas/Codeblocks/pruebaDict/src/Hash/HashBBdh.h
+	"Hash.h"
+	<BitSequence.h>
+
+1456997522 /home/usuario/Programas/Codeblocks/pruebaDict/src/Huffman/Huffman.h
+	<libcdsBasics.h>
+	"huff.h"
+	<Array.h>
+	"../utils/Coder/BinaryNode.h"
+	"../utils/Coder/Codeword.h"
+	"../utils/Coder/DecodingTree.h"
+
+1456997522 /home/usuario/Programas/Codeblocks/pruebaDict/src/Huffman/huff.h
+	<libcdsBasics.h>
+	<cppUtils.h>
+
+1456997522 /home/usuario/Programas/Codeblocks/pruebaDict/src/utils/Coder/BinaryNode.h
+	<iostream>
+	<libcdsBasics.h>
+
+1456997522 /home/usuario/Programas/Codeblocks/pruebaDict/src/utils/Coder/StatCoder.h
+	<libcdsBasics.h>
+	"Codeword.h"
+	"DecodingTable.h"
+
+1456997522 /home/usuario/Programas/Codeblocks/pruebaDict/src/utils/Coder/DecodingTableBuilder.h
+	<vector>
+	<string.h>
+	<libcdsBasics.h>
+	"DecodingTable.h"
+	"../../Huffman/Huffman.h"
+	"../../HuTucker/HuTucker.h"
+
+1456997522 /home/usuario/Programas/Codeblocks/pruebaDict/src/HuTucker/HuTucker.h
+	<iostream>
+	<BitString.h>
+	<libcdsBasics.h>
+	"../utils/Coder/BinaryNode.h"
+	"../utils/Coder/Codeword.h"
+	"../utils/Coder/DecodingTree.h"
+
+1456997518 /home/usuario/Programas/Codeblocks/pruebaDict/src/StringDictionaryHASHUFFDAC.h
+	<iostream>
+	<libcdsBasics.h>
+	"StringDictionary.h"
+	"Hash/HashDAC.h"
+	"Huffman/Huffman.h"
+	"utils/DAC_BVLS.h"
+	"utils/Coder/StatCoder.h"
+	"utils/Coder/DecodingTable.h"
+	"utils/Coder/DecodingTableBuilder.h"
+
+1456997522 /home/usuario/Programas/Codeblocks/pruebaDict/src/Hash/HashDAC.h
+	<iostream>
+	<BitSequence.h>
+	<libcdsBasics.h>
+	"HashUtils.h"
+	"../utils/DAC_BVLS.h"
+	"../utils/LogSequence.h"
+	"../utils/Utils.h"
+
+1456997524 /home/usuario/Programas/Codeblocks/pruebaDict/src/utils/DAC_BVLS.h
+	<string.h>
+	<stdlib.h>
+	<math.h>
+	<stdio.h>
+	<libcdsTrees.h>
+	<BitSequence.h>
+
+1456997518 /home/usuario/Programas/Codeblocks/pruebaDict/src/StringDictionaryHASHRPF.h
+	<iostream>
+	<libcdsBasics.h>
+	"StringDictionary.h"
+	"Hash/Hash.h"
+	"RePair/RePair.h"
+
+1456997520 /home/usuario/Programas/Codeblocks/pruebaDict/src/StringDictionaryHASHRPDAC.h
+	<iostream>
+	<libcdsBasics.h>
+	"StringDictionary.h"
+	"Hash/HashDAC.h"
+	"RePair/RePair.h"
+
+1456997520 /home/usuario/Programas/Codeblocks/pruebaDict/src/StringDictionaryPFC.h
+	<iostream>
+	<Array.h>
+	"StringDictionary.h"
+	"utils/VByte.h"
+	"utils/LogSequence.h"
+
+1456997520 /home/usuario/Programas/Codeblocks/pruebaDict/src/StringDictionaryRPFC.h
+	<iostream>
+	<vector>
+	<libcdsBasics.h>
+	"StringDictionary.h"
+	"utils/LogSequence.h"
+	"HuTucker/HuTucker.h"
+	"Huffman/Huffman.h"
+	"utils/Coder/StatCoder.h"
+	"utils/Coder/DecodingTable.h"
+	"utils/Coder/DecodingTableBuilder.h"
+
+1456997520 /home/usuario/Programas/Codeblocks/pruebaDict/src/StringDictionaryHTFC.h
+	<iostream>
+	<vector>
+	<libcdsBasics.h>
+	"StringDictionary.h"
+	"utils/LogSequence.h"
+	"HuTucker/HuTucker.h"
+	"utils/Coder/StatCoder.h"
+	"utils/Coder/DecodingTable.h"
+	"utils/Coder/DecodingTableBuilder.h"
+
+1456997520 /home/usuario/Programas/Codeblocks/pruebaDict/src/StringDictionaryHHTFC.h
+	<iostream>
+	<vector>
+	<libcdsBasics.h>
+	"StringDictionary.h"
+	"utils/LogSequence.h"
+	"HuTucker/HuTucker.h"
+	"Huffman/Huffman.h"
+	"utils/Coder/StatCoder.h"
+	"utils/Coder/DecodingTable.h"
+	"utils/Coder/DecodingTableBuilder.h"
+
+1456997520 /home/usuario/Programas/Codeblocks/pruebaDict/src/StringDictionaryRPHTFC.h
+	<iostream>
+	<vector>
+	<libcdsBasics.h>
+	"StringDictionary.h"
+	"utils/LogSequence.h"
+	"HuTucker/HuTucker.h"
+	"Huffman/Huffman.h"
+	"utils/Coder/StatCoder.h"
+	"utils/Coder/DecodingTable.h"
+	"utils/Coder/DecodingTableBuilder.h"
+
+1456997520 /home/usuario/Programas/Codeblocks/pruebaDict/src/StringDictionaryRPDAC.h
+	<iostream>
+	"StringDictionary.h"
+	"RePair/Coder/IRePair.h"
+	"utils/DAC_VLS.h"
+	"utils/LogSequence.h"
+
+1456997520 /home/usuario/Programas/Codeblocks/pruebaDict/src/StringDictionaryFMINDEX.h
+	<iostream>
+	<libcdsBasics.h>
+	<SequenceBuilder.h>
+	<Sequence.h>
+	<BitSequenceBuilder.h>
+	<BitSequence.h>
+	"FMIndex/SSA.h"
+	"StringDictionary.h"
+
+1456997520 /home/usuario/Programas/Codeblocks/pruebaDict/src/StringDictionaryXBW.h
+	<iostream>
+	<algorithm>
+	<set>
+	"StringDictionary.h"
+	"XBW/TrieNode.h"
+	"XBW/XBW.h"
+	"iterators/IteratorDictID.h"
+	"iterators/IteratorDictString.h"
+
+1456997522 /home/usuario/Programas/Codeblocks/pruebaDict/src/XBW/TrieNode.h
+	<iostream>
+	<vector>
+	<map>
+	<cstring>
+	<libcdsBasics.h>
+
+1457003195 /home/usuario/Programas/Codeblocks/pruebaDict/src/FirstAlvaroDictionary.h
+	<iostream>
+	"StringDictionary.h"
+	<PermutationBuilderMRRR.h>
+	<BitSequenceBuilder.h>
+	<libcdsBasics.h>
+	<vector>
+
+1456997646 source:/home/usuario/Programas/Codeblocks/pruebaDict/Check.cpp
+	<fstream>
+	<iostream>
+	<time.h>
+	"src/StringDictionary.h"
+

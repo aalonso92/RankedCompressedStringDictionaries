@@ -1,0 +1,227 @@
+==3723== Memcheck, a memory error detector
+==3723== Copyright (C) 2002-2013, and GNU GPL'd, by Julian Seward et al.
+==3723== Using Valgrind-3.10.1 and LibVEX; rerun with -h for copyright info
+==3723== Command: ./main
+==3723== Parent PID: 3105
+==3723== 
+--3723-- 
+--3723-- Valgrind options:
+--3723--    -v
+--3723--    --tool=memcheck
+--3723--    --leak-check=full
+--3723--    --num-callers=40
+--3723--    --log-file=valgrind.log
+--3723-- Contents of /proc/version:
+--3723--   Linux version 3.13.0-79-generic (buildd@lcy01-11) (gcc version 4.8.2 (Ubuntu 4.8.2-19ubuntu1) ) #123-Ubuntu SMP Fri Feb 19 14:28:32 UTC 2016
+--3723-- Arch and hwcaps: X86, LittleEndian, x86-mmxext-sse1-sse2-lzcnt
+--3723-- Page sizes: currently 4096, max supported 4096
+--3723-- Valgrind library directory: /usr/lib/valgrind
+--3723-- Reading syms from /lib/i386-linux-gnu/ld-2.19.so
+--3723--   Considering /lib/i386-linux-gnu/ld-2.19.so ..
+--3723--   .. CRC mismatch (computed 058316e7 wanted ff0271df)
+--3723--   Considering /usr/lib/debug/lib/i386-linux-gnu/ld-2.19.so ..
+--3723--   .. CRC is valid
+--3723-- Reading syms from /home/usuario/Programas/Codeblocks/pruebaDict/main
+--3723-- Reading syms from /usr/lib/valgrind/memcheck-x86-linux
+--3723--   Considering /usr/lib/valgrind/memcheck-x86-linux ..
+--3723--   .. CRC mismatch (computed a1851f40 wanted a7f53555)
+--3723--    object doesn't have a symbol table
+--3723--    object doesn't have a dynamic symbol table
+--3723-- Scheduler: using generic scheduler lock implementation.
+--3723-- Reading suppressions file: /usr/lib/valgrind/default.supp
+==3723== embedded gdbserver: reading from /tmp/vgdb-pipe-from-vgdb-to-3723-by-usuario-on-???
+==3723== embedded gdbserver: writing to   /tmp/vgdb-pipe-to-vgdb-from-3723-by-usuario-on-???
+==3723== embedded gdbserver: shared mem   /tmp/vgdb-pipe-shared-mem-vgdb-3723-by-usuario-on-???
+==3723== 
+==3723== TO CONTROL THIS PROCESS USING vgdb (which you probably
+==3723== don't want to do, unless you know exactly what you're doing,
+==3723== or are doing some strange experiment):
+==3723==   /usr/lib/valgrind/../../bin/vgdb --pid=3723 ...command...
+==3723== 
+==3723== TO DEBUG THIS PROCESS USING GDB: start GDB like this
+==3723==   /path/to/gdb ./main
+==3723== and then give GDB the following command
+==3723==   target remote | /usr/lib/valgrind/../../bin/vgdb --pid=3723
+==3723== --pid is optional if only one valgrind process is running
+==3723== 
+--3723-- REDIR: 0x4017ed0 (ld-linux.so.2:strlen) redirected to 0x380755e2 (???)
+--3723-- REDIR: 0x4017ce0 (ld-linux.so.2:index) redirected to 0x380755bd (???)
+--3723-- Reading syms from /usr/lib/valgrind/vgpreload_core-x86-linux.so
+--3723--   Considering /usr/lib/valgrind/vgpreload_core-x86-linux.so ..
+--3723--   .. CRC mismatch (computed d3e3f8e8 wanted ff94bb6b)
+--3723--    object doesn't have a symbol table
+--3723-- Reading syms from /usr/lib/valgrind/vgpreload_memcheck-x86-linux.so
+--3723--   Considering /usr/lib/valgrind/vgpreload_memcheck-x86-linux.so ..
+--3723--   .. CRC mismatch (computed 3a29cef8 wanted 4be4f0fe)
+--3723--    object doesn't have a symbol table
+==3723== WARNING: new redirection conflicts with existing -- ignoring it
+--3723--     old: 0x04017ed0 (strlen              ) R-> (0000.0) 0x380755e2 ???
+--3723--     new: 0x04017ed0 (strlen              ) R-> (2007.0) 0x0402d480 strlen
+--3723-- Reading syms from /usr/lib/i386-linux-gnu/libstdc++.so.6.0.19
+--3723--   Considering /usr/lib/i386-linux-gnu/libstdc++.so.6.0.19 ..
+--3723--   .. CRC mismatch (computed 042d6e49 wanted 99b1e9a5)
+--3723--    object doesn't have a symbol table
+--3723-- Reading syms from /lib/i386-linux-gnu/libm-2.19.so
+--3723--   Considering /lib/i386-linux-gnu/libm-2.19.so ..
+--3723--   .. CRC mismatch (computed 07492d54 wanted 02b843ba)
+--3723--   Considering /usr/lib/debug/lib/i386-linux-gnu/libm-2.19.so ..
+--3723--   .. CRC is valid
+--3723-- Reading syms from /lib/i386-linux-gnu/libgcc_s.so.1
+--3723--   Considering /lib/i386-linux-gnu/libgcc_s.so.1 ..
+--3723--   .. CRC mismatch (computed 002a6602 wanted 8322ad7d)
+--3723--    object doesn't have a symbol table
+--3723-- Reading syms from /lib/i386-linux-gnu/libc-2.19.so
+--3723--   Considering /lib/i386-linux-gnu/libc-2.19.so ..
+--3723--   .. CRC mismatch (computed 61349a52 wanted d7503c04)
+--3723--   Considering /usr/lib/debug/lib/i386-linux-gnu/libc-2.19.so ..
+--3723--   .. CRC is valid
+--3723-- REDIR: 0x4215de0 (libc.so.6:strnlen) redirected to 0x4024580 (_vgnU_ifunc_wrapper)
+--3723-- REDIR: 0x4217d90 (libc.so.6:strncasecmp) redirected to 0x4024580 (_vgnU_ifunc_wrapper)
+--3723-- REDIR: 0x421d710 (libc.so.6:memrchr) redirected to 0x4024580 (_vgnU_ifunc_wrapper)
+--3723-- REDIR: 0x4230750 (libc.so.6:wcslen) redirected to 0x4024580 (_vgnU_ifunc_wrapper)
+--3723-- REDIR: 0x4215f90 (libc.so.6:__GI_strrchr) redirected to 0x402ce50 (__GI_strrchr)
+--3723-- REDIR: 0x4215d20 (libc.so.6:__GI_strlen) redirected to 0x402d400 (__GI_strlen)
+--3723-- REDIR: 0x42174c0 (libc.so.6:__GI_memcmp) redirected to 0x402ff90 (__GI_memcmp)
+--3723-- REDIR: 0x4215580 (libc.so.6:strcmp) redirected to 0x4024580 (_vgnU_ifunc_wrapper)
+--3723-- REDIR: 0x42d4ad0 (libc.so.6:__strcmp_ssse3) redirected to 0x402e5b0 (strcmp)
+--3723-- REDIR: 0x4211fd0 (libc.so.6:calloc) redirected to 0x402c090 (calloc)
+--3723-- REDIR: 0x42116b0 (libc.so.6:malloc) redirected to 0x402a110 (malloc)
+--3723-- REDIR: 0x4216b60 (libc.so.6:strstr) redirected to 0x4031460 (strstr)
+--3723-- REDIR: 0x40999b0 (libstdc++.so.6:operator new[](unsigned int)) redirected to 0x402ad90 (operator new[](unsigned int))
+--3723-- REDIR: 0x4217ef0 (libc.so.6:memcpy) redirected to 0x4024580 (_vgnU_ifunc_wrapper)
+--3723-- REDIR: 0x42c84f0 (libc.so.6:__memcpy_ssse3) redirected to 0x402eda0 (memcpy)
+--3723-- REDIR: 0x4097860 (libstdc++.so.6:operator delete[](void*)) redirected to 0x402bcd0 (operator delete[](void*))
+--3723-- REDIR: 0x4211c60 (libc.so.6:free) redirected to 0x402b370 (free)
+--3723-- REDIR: 0x4099890 (libstdc++.so.6:operator new(unsigned int)) redirected to 0x402a670 (operator new(unsigned int))
+--3723-- REDIR: 0x4215cd0 (libc.so.6:strlen) redirected to 0x4024580 (_vgnU_ifunc_wrapper)
+--3723-- REDIR: 0x421de70 (libc.so.6:__strlen_sse2_bsf) redirected to 0x402d3e0 (strlen)
+--3723-- REDIR: 0x4217470 (libc.so.6:bcmp) redirected to 0x4024580 (_vgnU_ifunc_wrapper)
+--3723-- REDIR: 0x42ded30 (libc.so.6:__memcmp_ssse3) redirected to 0x4030080 (bcmp)
+--3723-- REDIR: 0x42177a0 (libc.so.6:memmove) redirected to 0x4024580 (_vgnU_ifunc_wrapper)
+--3723-- REDIR: 0x42cc4d0 (libc.so.6:__memmove_ssse3) redirected to 0x40308b0 (memmove)
+--3723-- REDIR: 0x4097810 (libstdc++.so.6:operator delete(void*)) redirected to 0x402b7d0 (operator delete(void*))
+==3723== Invalid read of size 1
+==3723==    at 0x402D3F3: strlen (in /usr/lib/valgrind/vgpreload_memcheck-x86-linux.so)
+==3723==    by 0x804B86A: IteratorDictStringPlain::next(unsigned int*) (in /home/usuario/Programas/Codeblocks/pruebaDict/main)
+==3723==    by 0x807C191: FirstAlvaroDictionary::FirstAlvaroDictionary(IteratorDictString*, unsigned int) (in /home/usuario/Programas/Codeblocks/pruebaDict/main)
+==3723==    by 0x804A678: main (in /home/usuario/Programas/Codeblocks/pruebaDict/main)
+==3723==  Address 0x434d721 is 0 bytes after a block of size 201 alloc'd
+==3723==    at 0x402ADFC: operator new[](unsigned int) (in /usr/lib/valgrind/vgpreload_memcheck-x86-linux.so)
+==3723==    by 0x804B8B2: unsigned char* cds_utils::loadValue<unsigned char>(std::istream&, unsigned int) (in /home/usuario/Programas/Codeblocks/pruebaDict/main)
+==3723==    by 0x804A5FA: main (in /home/usuario/Programas/Codeblocks/pruebaDict/main)
+==3723== 
+==3723== Invalid read of size 1
+==3723==    at 0x402D3F3: strlen (in /usr/lib/valgrind/vgpreload_memcheck-x86-linux.so)
+==3723==    by 0x807C1EE: FirstAlvaroDictionary::FirstAlvaroDictionary(IteratorDictString*, unsigned int) (in /home/usuario/Programas/Codeblocks/pruebaDict/main)
+==3723==    by 0x804A678: main (in /home/usuario/Programas/Codeblocks/pruebaDict/main)
+==3723==  Address 0x434d721 is 0 bytes after a block of size 201 alloc'd
+==3723==    at 0x402ADFC: operator new[](unsigned int) (in /usr/lib/valgrind/vgpreload_memcheck-x86-linux.so)
+==3723==    by 0x804B8B2: unsigned char* cds_utils::loadValue<unsigned char>(std::istream&, unsigned int) (in /home/usuario/Programas/Codeblocks/pruebaDict/main)
+==3723==    by 0x804A5FA: main (in /home/usuario/Programas/Codeblocks/pruebaDict/main)
+==3723== 
+--3723-- REDIR: 0x4217860 (libc.so.6:memset) redirected to 0x4024580 (_vgnU_ifunc_wrapper)
+--3723-- REDIR: 0x42c73e0 (libc.so.6:__memset_sse2) redirected to 0x4030820 (memset)
+--3723-- REDIR: 0x4217f50 (libc.so.6:__GI_memcpy) redirected to 0x402f090 (__GI_memcpy)
+==3723== Invalid read of size 1
+==3723==    at 0x402D3F3: strlen (in /usr/lib/valgrind/vgpreload_memcheck-x86-linux.so)
+==3723==    by 0x807C93E: FirstAlvaroDictionary::FirstAlvaroDictionary(IteratorDictString*, unsigned int) (in /home/usuario/Programas/Codeblocks/pruebaDict/main)
+==3723==    by 0x804A678: main (in /home/usuario/Programas/Codeblocks/pruebaDict/main)
+==3723==  Address 0x434d721 is 0 bytes after a block of size 201 alloc'd
+==3723==    at 0x402ADFC: operator new[](unsigned int) (in /usr/lib/valgrind/vgpreload_memcheck-x86-linux.so)
+==3723==    by 0x804B8B2: unsigned char* cds_utils::loadValue<unsigned char>(std::istream&, unsigned int) (in /home/usuario/Programas/Codeblocks/pruebaDict/main)
+==3723==    by 0x804A5FA: main (in /home/usuario/Programas/Codeblocks/pruebaDict/main)
+==3723== 
+--3723-- REDIR: 0x4215650 (libc.so.6:strcpy) redirected to 0x4024580 (_vgnU_ifunc_wrapper)
+--3723-- REDIR: 0x421e030 (libc.so.6:__strcpy_ssse3) redirected to 0x402d4c0 (strcpy)
+--3723-- REDIR: 0x4215ee0 (libc.so.6:strncpy) redirected to 0x4024580 (_vgnU_ifunc_wrapper)
+--3723-- REDIR: 0x421f880 (libc.so.6:__strncpy_ssse3) redirected to 0x402d680 (strncpy)
+==3723== Invalid read of size 1
+==3723==    at 0x402D3F3: strlen (in /usr/lib/valgrind/vgpreload_memcheck-x86-linux.so)
+==3723==    by 0x806131F: IteratorDictStringVector::next(unsigned int*) (in /home/usuario/Programas/Codeblocks/pruebaDict/main)
+==3723==    by 0x80672C6: StringDictionaryPFC::StringDictionaryPFC(IteratorDictString*, unsigned int) (in /home/usuario/Programas/Codeblocks/pruebaDict/main)
+==3723==    by 0x807C977: FirstAlvaroDictionary::FirstAlvaroDictionary(IteratorDictString*, unsigned int) (in /home/usuario/Programas/Codeblocks/pruebaDict/main)
+==3723==    by 0x804A678: main (in /home/usuario/Programas/Codeblocks/pruebaDict/main)
+==3723==  Address 0x434d721 is 0 bytes after a block of size 201 alloc'd
+==3723==    at 0x402ADFC: operator new[](unsigned int) (in /usr/lib/valgrind/vgpreload_memcheck-x86-linux.so)
+==3723==    by 0x804B8B2: unsigned char* cds_utils::loadValue<unsigned char>(std::istream&, unsigned int) (in /home/usuario/Programas/Codeblocks/pruebaDict/main)
+==3723==    by 0x804A5FA: main (in /home/usuario/Programas/Codeblocks/pruebaDict/main)
+==3723== 
+==3723== 
+==3723== HEAP SUMMARY:
+==3723==     in use at exit: 262,561 bytes in 13 blocks
+==3723==   total heap usage: 55 allocs, 42 frees, 273,293 bytes allocated
+==3723== 
+==3723== Searching for pointers to 13 not-freed blocks
+==3723== Checked 118,816 bytes
+==3723== 
+==3723== 120 (12 direct, 108 indirect) bytes in 1 blocks are definitely lost in loss record 9 of 13
+==3723==    at 0x402A6DC: operator new(unsigned int) (in /usr/lib/valgrind/vgpreload_memcheck-x86-linux.so)
+==3723==    by 0x80910C4: cds_static::PermutationBuilderMRRR::build(unsigned int*, unsigned int) const (in /home/usuario/Programas/Codeblocks/pruebaDict/main)
+==3723==    by 0x807C605: FirstAlvaroDictionary::FirstAlvaroDictionary(IteratorDictString*, unsigned int) (in /home/usuario/Programas/Codeblocks/pruebaDict/main)
+==3723==    by 0x804A678: main (in /home/usuario/Programas/Codeblocks/pruebaDict/main)
+==3723== 
+==3723== 225 (24 direct, 201 indirect) bytes in 1 blocks are definitely lost in loss record 11 of 13
+==3723==    at 0x402A6DC: operator new(unsigned int) (in /usr/lib/valgrind/vgpreload_memcheck-x86-linux.so)
+==3723==    by 0x804A616: main (in /home/usuario/Programas/Codeblocks/pruebaDict/main)
+==3723== 
+==3723== 262,216 (44 direct, 262,172 indirect) bytes in 1 blocks are definitely lost in loss record 13 of 13
+==3723==    at 0x402A6DC: operator new(unsigned int) (in /usr/lib/valgrind/vgpreload_memcheck-x86-linux.so)
+==3723==    by 0x807C95E: FirstAlvaroDictionary::FirstAlvaroDictionary(IteratorDictString*, unsigned int) (in /home/usuario/Programas/Codeblocks/pruebaDict/main)
+==3723==    by 0x804A678: main (in /home/usuario/Programas/Codeblocks/pruebaDict/main)
+==3723== 
+==3723== LEAK SUMMARY:
+==3723==    definitely lost: 80 bytes in 3 blocks
+==3723==    indirectly lost: 262,481 bytes in 10 blocks
+==3723==      possibly lost: 0 bytes in 0 blocks
+==3723==    still reachable: 0 bytes in 0 blocks
+==3723==         suppressed: 0 bytes in 0 blocks
+==3723== 
+==3723== ERROR SUMMARY: 7 errors from 7 contexts (suppressed: 0 from 0)
+==3723== 
+==3723== 1 errors in context 1 of 7:
+==3723== Invalid read of size 1
+==3723==    at 0x402D3F3: strlen (in /usr/lib/valgrind/vgpreload_memcheck-x86-linux.so)
+==3723==    by 0x806131F: IteratorDictStringVector::next(unsigned int*) (in /home/usuario/Programas/Codeblocks/pruebaDict/main)
+==3723==    by 0x80672C6: StringDictionaryPFC::StringDictionaryPFC(IteratorDictString*, unsigned int) (in /home/usuario/Programas/Codeblocks/pruebaDict/main)
+==3723==    by 0x807C977: FirstAlvaroDictionary::FirstAlvaroDictionary(IteratorDictString*, unsigned int) (in /home/usuario/Programas/Codeblocks/pruebaDict/main)
+==3723==    by 0x804A678: main (in /home/usuario/Programas/Codeblocks/pruebaDict/main)
+==3723==  Address 0x434d721 is 0 bytes after a block of size 201 alloc'd
+==3723==    at 0x402ADFC: operator new[](unsigned int) (in /usr/lib/valgrind/vgpreload_memcheck-x86-linux.so)
+==3723==    by 0x804B8B2: unsigned char* cds_utils::loadValue<unsigned char>(std::istream&, unsigned int) (in /home/usuario/Programas/Codeblocks/pruebaDict/main)
+==3723==    by 0x804A5FA: main (in /home/usuario/Programas/Codeblocks/pruebaDict/main)
+==3723== 
+==3723== 
+==3723== 1 errors in context 2 of 7:
+==3723== Invalid read of size 1
+==3723==    at 0x402D3F3: strlen (in /usr/lib/valgrind/vgpreload_memcheck-x86-linux.so)
+==3723==    by 0x807C93E: FirstAlvaroDictionary::FirstAlvaroDictionary(IteratorDictString*, unsigned int) (in /home/usuario/Programas/Codeblocks/pruebaDict/main)
+==3723==    by 0x804A678: main (in /home/usuario/Programas/Codeblocks/pruebaDict/main)
+==3723==  Address 0x434d721 is 0 bytes after a block of size 201 alloc'd
+==3723==    at 0x402ADFC: operator new[](unsigned int) (in /usr/lib/valgrind/vgpreload_memcheck-x86-linux.so)
+==3723==    by 0x804B8B2: unsigned char* cds_utils::loadValue<unsigned char>(std::istream&, unsigned int) (in /home/usuario/Programas/Codeblocks/pruebaDict/main)
+==3723==    by 0x804A5FA: main (in /home/usuario/Programas/Codeblocks/pruebaDict/main)
+==3723== 
+==3723== 
+==3723== 1 errors in context 3 of 7:
+==3723== Invalid read of size 1
+==3723==    at 0x402D3F3: strlen (in /usr/lib/valgrind/vgpreload_memcheck-x86-linux.so)
+==3723==    by 0x807C1EE: FirstAlvaroDictionary::FirstAlvaroDictionary(IteratorDictString*, unsigned int) (in /home/usuario/Programas/Codeblocks/pruebaDict/main)
+==3723==    by 0x804A678: main (in /home/usuario/Programas/Codeblocks/pruebaDict/main)
+==3723==  Address 0x434d721 is 0 bytes after a block of size 201 alloc'd
+==3723==    at 0x402ADFC: operator new[](unsigned int) (in /usr/lib/valgrind/vgpreload_memcheck-x86-linux.so)
+==3723==    by 0x804B8B2: unsigned char* cds_utils::loadValue<unsigned char>(std::istream&, unsigned int) (in /home/usuario/Programas/Codeblocks/pruebaDict/main)
+==3723==    by 0x804A5FA: main (in /home/usuario/Programas/Codeblocks/pruebaDict/main)
+==3723== 
+==3723== 
+==3723== 1 errors in context 4 of 7:
+==3723== Invalid read of size 1
+==3723==    at 0x402D3F3: strlen (in /usr/lib/valgrind/vgpreload_memcheck-x86-linux.so)
+==3723==    by 0x804B86A: IteratorDictStringPlain::next(unsigned int*) (in /home/usuario/Programas/Codeblocks/pruebaDict/main)
+==3723==    by 0x807C191: FirstAlvaroDictionary::FirstAlvaroDictionary(IteratorDictString*, unsigned int) (in /home/usuario/Programas/Codeblocks/pruebaDict/main)
+==3723==    by 0x804A678: main (in /home/usuario/Programas/Codeblocks/pruebaDict/main)
+==3723==  Address 0x434d721 is 0 bytes after a block of size 201 alloc'd
+==3723==    at 0x402ADFC: operator new[](unsigned int) (in /usr/lib/valgrind/vgpreload_memcheck-x86-linux.so)
+==3723==    by 0x804B8B2: unsigned char* cds_utils::loadValue<unsigned char>(std::istream&, unsigned int) (in /home/usuario/Programas/Codeblocks/pruebaDict/main)
+==3723==    by 0x804A5FA: main (in /home/usuario/Programas/Codeblocks/pruebaDict/main)
+==3723== 
+==3723== ERROR SUMMARY: 7 errors from 7 contexts (suppressed: 0 from 0)
